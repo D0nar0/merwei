@@ -1,0 +1,51 @@
+#identity{
+  text-align: center;
+}
+
+.logo{
+  margin-top: 2%;
+  width: 70%;
+}
+
+.typo{
+  width: 100%;
+}
+
+
+.navbar{
+  opacity: 0.7;
+}
+
+.nav-item{
+  text-align: center;
+}
+
+/*format web*/
+@media (min-width: 1260px){
+
+  .logo{
+    margin-left: 650px;
+    text-align: right;
+    z-index: 0;
+    width: 40%;
+
+  }
+
+  .typo{
+ 
+    left: 10px;
+    z-index: 1;
+    margin-top: -400px;
+    margin-left: -600px;
+    width: 80%;
+
+
+  }
+}
+
+@media (min-width: 1850px){
+  .typo{
+    margin-top: -700px;
+  }
+}
+

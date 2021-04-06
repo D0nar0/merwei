@@ -1,0 +1,213 @@
+body{
+    background-image: linear-gradient(to bottom, #e09aee, #809eec, #2098c6, #1b8891, #427362);
+    position: relative;
+    margin:0;
+    padding:0;
+}
+
+/**/
+
+/*index.html*/
+/*
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e09aee;
+    color: white;
+}
+*/
+.card-title{
+    text-align: center;
+}
+
+.card{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+
+
+
+/*hotline.html*/
+
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/*pari.html*/
+.accordion-body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.accordion-body2{
+    text-align: center;
+}
+
+.accordion{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+
+
+
+
+/*trombi*/
+.h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.h4 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-image: linear-gradient(to right, #9c43e0 15%, #244d9e  51%, #36b336  100%);
+}
+.btn{
+
+   text-align: center;
+   transition: 0.8s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgba(49, 49, 49, 0.74);
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+ .cat{
+    position: fixed;
+    bottom : 30px;
+    right: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    padding : 10px;
+    text-align: center;
+}
+
+.cat a{
+    text-decoration: none;
+
+}
+.href{
+    color :rgb(255, 255, 255);
+    margin-left: 15px;
+}
+
+
+
+.cat img{
+    width: 20px;
+}
+
+.cat:hover{
+    transition: 0.2s;
+    background-color: red;
+}
+
+
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+
+
+}
+
+.rs img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+
+}
+
+.green{
+    color:rgb(30, 107, 0)
+}
+
+.red{
+    color:rgb(202, 0, 0)
+}
+
+.link{
+    text-decoration: none; /* Les liens ne seront plus soulignés */
+    color: rgb(212, 0, 255); /* Les liens seront en rouge au lieu de bleu */
+}
+
+.odd{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/*format mobile*/
+@media (max-width: 576px){
+    .card{
+        
+        margin-bottom: 5%;
+    }
+
+
+}
+
+
+/*format web*/
+@media (min-width: 1025px){
+    .accordion{
+        margin-top: 10%;
+    }
+
+    .text{
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: center;
+    }
+
+    .cat{
+        padding: 10px
+    }
+
+    .cat img{
+        width: 17px;
+    }
+
+    .cat a{
+        font-size: 20px;
+    }
+
+
+}
